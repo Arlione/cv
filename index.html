@@ -1,99 +1,154 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-<meta charset="UTF-8">
- <title>Andrey CV</title>
- 
+  <meta charset="UTF-8">
+  <title>Andrey CV</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body  >
-    <table cellspacing = "50">
-    <tr>
-        <td>    
-    
-    <img src="https://sun9-84.userapi.com/impg/_z0a7O6fMlUwRoxJ6KGG5Ku5owIW62k3qxuDTw/e05q1ndnW2o.jpg?size=1617x2160&quality=95&sign=211cea88d0bcfe25c3bba14b96dd8032&type=album" width="300" >
-    </td>
-     
-    
-    
-        <td>    
-    <h1>Андрей Трошин</h1>
-    <p> <strong><em>Я обычный ученик по кодингу HTML </em></strong> </p>
-    <p><strong>Я люблю играть и работать</strong></p>
-</td>
-</tr>
-</table>
-    <hr>
+
+<body>
+  <div class="container">
+    <div class="info">
+
+
+      <img
+        src="https://sun9-84.userapi.com/impg/_z0a7O6fMlUwRoxJ6KGG5Ku5owIW62k3qxuDTw/e05q1ndnW2o.jpg?size=1617x2160&quality=95&sign=211cea88d0bcfe25c3bba14b96dd8032&type=album"
+        width="300" alt="тут должна быть моя фотка!" class="Avatar">
+      </td>
+      <td>
+        <div class="text-info">
+          <h1>Андрей Трошин</h1>
+          <p> <strong>Я обычный ученик по кодингу HTML </strong> </p>
+          <p><strong>Я люблю играть, и работать</strong></p>
 
 
 
-    <h2>Мои социальные сети</h2>
-<ul type="square"> 
-   <li><strong><a href=" https://www.instagram.com/arlione99/" target="_blanck" style="color: black;"> Инстаграм</a></strong></li> 
-   <li><strong><a href="https://vk.com/arlione99" target="_blanck" style="color: black;"> Вконтакте </a></strong></li>
-</ul>
-<hr>
+          <h4>Мои социальные сети</h4>
+
+
+          <a href=" https://www.instagram.com/arlione99/">
+            Инстаграм</a>
+          |
+          <a href="https://vk.com/arlione99"> Вконтакте </a>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+  </div>
+
+
+
+  <div class="card bg-three">
 
     <h2>Мои любимые мемы</h2>
-<ol>
-    <li><strong>ЭТО БЫЛ Я ДИО!!!</li></strong>
-    <li><strong>Яре Яре Дазе</li></strong>
-</ol>
-<hr>
-<h2>опыт работы</h2>
-<table border="3" >
-    <tr>
-        <th style="color: cornflowerblue;">Компания</th>
-        <th style="color: cornflowerblue;">Должность</th>
-        <th style="color: cornflowerblue;">Год</th>
-    </tr>
-    <tr><strong>
-        <td><strong>Oodji</strong></td>
-        <td><strong>кассир</strong></td>
-        <td><strong>2018-2020</strong></td>
-        </strong>
-    </tr>
-    <tr>
-    
+    <ol class=" list">
+      <li><strong>ЭТО БЫЛ Я ДИО!!!</li></strong>
+      <li><strong>Яре Яре Дазе</li></strong>
+    </ol>
+
+
+  </div>
+
+  <div class="card bg-one">
+    <h2>опыт работы</h2>
+    <table class="table">
+
+      <tr class="temp">
+        <td><strong>Oodji</td>
+        <td><strong>кассир</td>
+        <td><strong>2018-2020</td>
+
+      </tr>
+      <tr class="temp">
+
         <td><strong>billimbi</strong></td>
         <td><strong>Консультант</strong></td>
         <td><strong>2021</strong></td>
 
-    </tr>
-    <tr>
-        
-            <td><strong>Oodji</strong></td>
-            <td><strong>кассир</strong></td>
-            <td><strong>2021-2022</strong></td>
-        
-    </tr>
-    <tr>
+      </tr>
+      <tr class="temp">
+
+        <td><strong>Oodji</strong></td>
+        <td><strong>кассир</strong></td>
+        <td><strong>2021-2022</strong></td>
+
+      </tr>
+
+      <tr class="temp">
         <td><strong>учусь программировать</strong></td>
         <td></td>
         <td><strong>2022-20..</strong></td>
-    </tr>
-</table>
-<hr>
-<h2>Просто ссылка</h2>
-<a href="Nude.html" style="color: black;" target="_blanck"> <strong>Тык по ссылке </strong></a>
-<hr>
-<h3>Связаться со мной</h3>
-<form action="">
+      </tr>
+    </table>
+
+  </div>
+
+  <div class="card bg-two">
+    <h2>Another page</h2>
+    <ul class="list-link">
+      <li><a href="anotherPage.html"> Тык по ссылке </a></li>
+      <li><a href="https://www.youtube.com/watch?v=SpCUuyZZTp8">учебник</a></li>
+    </ul>
+
+  </div>
+
+  <div>
+    <div class="contact">
+      <h3>Связаться со мной</h3>
+      <form action="">
+        <div class="row">
+
+          <div class="form-group ">
 
 
-<label for="Name">Важе имя</label>
-<input type="text" id="Name" placeholder="Введите ваше имя...">
 
-<br>
+            <label for="Name"> Важе имя </label>
+            <input type="text" id="Name" placeholder="Введите ваше имя...">
 
-<label for="Email">Ваш Email</label>
-<input type="email" id="Email" placeholder="Введите ваш Email...">
- <br>
- <label for="text"> Ваше сообщение:</label> 
- <textarea id="text" rows="15" cols="40"></textarea>
- <br>
- <input type="submit" value="отправить!">
+          </div>
+
+          <div class="form-group">
+
+            <label for="Email">Ваш Email</label>
+            <input type="email" id="Email" placeholder="Введите ваш Email...">
+          </div>
+        </div>
+
+        <div class="form-group">
+
+          <label for="text"> Ваше сообщение:</label>
+          <textarea id="text" rows="5" cols="35"></textarea>
+        </div>
 
 
+
+
+        <input class="btn" type="submit" value="отправить!">
+
+      </form>
+    </div>
+
+  </div>
+
+  <!-- <div class="box-model">
+  <div> </div>
+  <div> </div>
+  <div> </div>
+  <div> </div>
+
+ </div> -->
+  </div>
+
+
+  <div style="margin-bottom: 500px;"></div>
 </body>
+
 </html>
